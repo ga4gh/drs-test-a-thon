@@ -1,0 +1,21 @@
+{
+  "service_info" : {
+    "auth_type": "none",
+    "auth_token": ""
+  },
+  "drs_objects" : [
+    {
+      "drs_id" : "4d2f19387003a7bdcb2721a80a3d6af9",
+      "auth_type": "none",
+      "auth_token": "",
+      "is_bundle": false
+    },
+    {
+      "drs_id" : "fb1cfb04d3ef99d07c21f9dbf87ccc68",
+      "auth_type": "none",
+      "auth_token": "",
+      "is_bundle": false
+    }
+]
+}
+https://locate.be-md.ncbi.nlm.nih.gov/ga4gh/drs/v1
