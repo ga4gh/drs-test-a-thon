@@ -137,3 +137,9 @@ datastore/*
 
 # Mac OS files
 **/.DS_Store
+
+# virtualenv
+drs_cs_venv/*
+
+# databases
+*.db

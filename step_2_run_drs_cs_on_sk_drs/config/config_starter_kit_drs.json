@@ -5,17 +5,22 @@
   },
   "drs_objects" : [
     {
-      "drs_id" : "4d2f19387003a7bdcb2721a80a3d6af9",
+      "drs_id" : "8e18bfb64168994489bc9e7fda0acd4f",
       "auth_type": "none",
       "auth_token": "",
       "is_bundle": false
     },
     {
-      "drs_id" : "fb1cfb04d3ef99d07c21f9dbf87ccc68",
+      "drs_id" : "ec9dc4beb2a20651daab19030ac801fd",
+      "auth_type": "none",
+      "auth_token": "",
+      "is_bundle": false
+    },
+    {
+      "drs_id" : "1d1ec431af3bab935cc381c2aca316ee",
       "auth_type": "none",
       "auth_token": "",
       "is_bundle": false
     }
-]
+  ]
 }
-https://locate.be-md.ncbi.nlm.nih.gov/ga4gh/drs/v1
