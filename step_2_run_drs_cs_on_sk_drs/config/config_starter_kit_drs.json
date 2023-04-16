@@ -1,0 +1,26 @@
+{
+  "service_info" : {
+    "auth_type": "none",
+    "auth_token": ""
+  },
+  "drs_objects" : [
+    {
+      "drs_id" : "8e18bfb64168994489bc9e7fda0acd4f",
+      "auth_type": "none",
+      "auth_token": "",
+      "is_bundle": false
+    },
+    {
+      "drs_id" : "ec9dc4beb2a20651daab19030ac801fd",
+      "auth_type": "none",
+      "auth_token": "",
+      "is_bundle": false
+    },
+    {
+      "drs_id" : "1d1ec431af3bab935cc381c2aca316ee",
+      "auth_type": "none",
+      "auth_token": "",
+      "is_bundle": false
+    }
+  ]
+}

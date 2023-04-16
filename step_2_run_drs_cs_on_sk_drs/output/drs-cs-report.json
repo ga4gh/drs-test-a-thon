@@ -1,0 +1,301 @@
+{
+    "schema_name": "ga4gh-testbed-report",
+    "schema_version": "0.1.0",
+    "testbed_name": "DRS Compliance Suite",
+    "testbed_version": "v0.0.0",
+    "testbed_description": "Test the compliance of a DRS implementation with GA4GH DRS v1.2.0 specification",
+    "platform_name": "ga4gh starter kit drs",
+    "platform_description": "GA4GH reference implementation of DRS specification",
+    "input_parameters": {
+        "server_base_url": "http://host.docker.internal:5000/ga4gh/drs/v1"
+    },
+    "start_time": "2023-04-15T16:59:20Z",
+    "end_time": "2023-04-15T16:59:20Z",
+    "status": "PASS",
+    "summary": {
+        "unknown": 0,
+        "passed": 18,
+        "warned": 0,
+        "failed": 0,
+        "skipped": 0
+    },
+    "phases": [
+        {
+            "phase_name": "service info",
+            "phase_description": "run all the tests for service_info endpoint",
+            "start_time": "2023-04-15T16:59:20Z",
+            "end_time": "2023-04-15T16:59:20Z",
+            "status": "PASS",
+            "summary": {
+                "unknown": 0,
+                "passed": 3,
+                "warned": 0,
+                "failed": 0,
+                "skipped": 0
+            },
+            "tests": [
+                {
+                    "test_name": "Run test cases on the service-info endpoint; auth_type = none",
+                    "test_description": "validate service-info status code, content-type and response schemas",
+                    "start_time": "2023-04-15T16:59:20Z",
+                    "end_time": "2023-04-15T16:59:20Z",
+                    "status": "PASS",
+                    "summary": {
+                        "unknown": 0,
+                        "passed": 3,
+                        "warned": 0,
+                        "failed": 0,
+                        "skipped": 0
+                    },
+                    "message": "",
+                    "cases": [
+                        {
+                            "case_name": "Service Info response status code validation",
+                            "case_description": "Check if the response status code is 200",
+                            "log_messages": [],
+                            "start_time": "2023-04-15T16:59:20Z",
+                            "end_time": "2023-04-15T16:59:20Z",
+                            "status": "PASS",
+                            "message": "Response status code is 200"
+                        },
+                        {
+                            "case_name": "Service Info response content-type validation",
+                            "case_description": "Check if the content-type is application/json",
+                            "log_messages": [],
+                            "start_time": "2023-04-15T16:59:20Z",
+                            "end_time": "2023-04-15T16:59:20Z",
+                            "status": "PASS",
+                            "message": "Content-Type matches expected type"
+                        },
+                        {
+                            "case_name": "Service Info response schema validation",
+                            "case_description": "Validate Service Info response schema when status = 200",
+                            "log_messages": [],
+                            "start_time": "2023-04-15T16:59:20Z",
+                            "end_time": "2023-04-15T16:59:20Z",
+                            "status": "PASS",
+                            "message": "Schema Validation Successful"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "phase_name": "drs object info",
+            "phase_description": "run all the tests for drs object info endpoint",
+            "start_time": "2023-04-15T16:59:20Z",
+            "end_time": "2023-04-15T16:59:20Z",
+            "status": "PASS",
+            "summary": {
+                "unknown": 0,
+                "passed": 15,
+                "warned": 0,
+                "failed": 0,
+                "skipped": 0
+            },
+            "tests": [
+                {
+                    "test_name": "Run test cases on the drs object info endpoint for drs id = 8e18bfb64168994489bc9e7fda0acd4f; auth_type = none",
+                    "test_description": "validate drs object status code, content-type and response schemas",
+                    "start_time": "2023-04-15T16:59:20Z",
+                    "end_time": "2023-04-15T16:59:20Z",
+                    "status": "PASS",
+                    "summary": {
+                        "unknown": 0,
+                        "passed": 5,
+                        "warned": 0,
+                        "failed": 0,
+                        "skipped": 0
+                    },
+                    "message": "",
+                    "cases": [
+                        {
+                            "case_name": "DRS Object Info response status code validation",
+                            "case_description": "Check if the response status code is 200",
+                            "log_messages": [],
+                            "start_time": "2023-04-15T16:59:20Z",
+                            "end_time": "2023-04-15T16:59:20Z",
+                            "status": "PASS",
+                            "message": "Response status code is 200"
+                        },
+                        {
+                            "case_name": "DRS Object Info response content-type validation",
+                            "case_description": "Check if the content-type is application/json",
+                            "log_messages": [],
+                            "start_time": "2023-04-15T16:59:20Z",
+                            "end_time": "2023-04-15T16:59:20Z",
+                            "status": "PASS",
+                            "message": "Content-Type matches expected type"
+                        },
+                        {
+                            "case_name": "DRS Object Info response schema validation",
+                            "case_description": "Validate DRS Object Info response schema when status = 200",
+                            "log_messages": [],
+                            "start_time": "2023-04-15T16:59:20Z",
+                            "end_time": "2023-04-15T16:59:20Z",
+                            "status": "PASS",
+                            "message": "Schema Validation Successful"
+                        },
+                        {
+                            "case_name": "DRS Object Info has access information",
+                            "case_description": "Validate that DRS Object Info response has access_methods field provided and that it is non-empty",
+                            "log_messages": [],
+                            "start_time": "2023-04-15T16:59:20Z",
+                            "end_time": "2023-04-15T16:59:20Z",
+                            "status": "PASS",
+                            "message": "'access_methods' is provided and it is non-empty."
+                        },
+                        {
+                            "case_name": "DRS Object Info has access information",
+                            "case_description": "Validate that each access_method in the access_methods field of the DRS Object Info response has atleast one of 'access_url'or 'access_id' provided",
+                            "log_messages": [],
+                            "start_time": "2023-04-15T16:59:20Z",
+                            "end_time": "2023-04-15T16:59:20Z",
+                            "status": "PASS",
+                            "message": "At least 'access_url' or 'access_id' is provided in all access_methods"
+                        }
+                    ]
+                },
+                {
+                    "test_name": "Run test cases on the drs object info endpoint for drs id = ec9dc4beb2a20651daab19030ac801fd; auth_type = none",
+                    "test_description": "validate drs object status code, content-type and response schemas",
+                    "start_time": "2023-04-15T16:59:20Z",
+                    "end_time": "2023-04-15T16:59:20Z",
+                    "status": "PASS",
+                    "summary": {
+                        "unknown": 0,
+                        "passed": 5,
+                        "warned": 0,
+                        "failed": 0,
+                        "skipped": 0
+                    },
+                    "message": "",
+                    "cases": [
+                        {
+                            "case_name": "DRS Object Info response status code validation",
+                            "case_description": "Check if the response status code is 200",
+                            "log_messages": [],
+                            "start_time": "2023-04-15T16:59:20Z",
+                            "end_time": "2023-04-15T16:59:20Z",
+                            "status": "PASS",
+                            "message": "Response status code is 200"
+                        },
+                        {
+                            "case_name": "DRS Object Info response content-type validation",
+                            "case_description": "Check if the content-type is application/json",
+                            "log_messages": [],
+                            "start_time": "2023-04-15T16:59:20Z",
+                            "end_time": "2023-04-15T16:59:20Z",
+                            "status": "PASS",
+                            "message": "Content-Type matches expected type"
+                        },
+                        {
+                            "case_name": "DRS Object Info response schema validation",
+                            "case_description": "Validate DRS Object Info response schema when status = 200",
+                            "log_messages": [],
+                            "start_time": "2023-04-15T16:59:20Z",
+                            "end_time": "2023-04-15T16:59:20Z",
+                            "status": "PASS",
+                            "message": "Schema Validation Successful"
+                        },
+                        {
+                            "case_name": "DRS Object Info has access information",
+                            "case_description": "Validate that DRS Object Info response has access_methods field provided and that it is non-empty",
+                            "log_messages": [],
+                            "start_time": "2023-04-15T16:59:20Z",
+                            "end_time": "2023-04-15T16:59:20Z",
+                            "status": "PASS",
+                            "message": "'access_methods' is provided and it is non-empty."
+                        },
+                        {
+                            "case_name": "DRS Object Info has access information",
+                            "case_description": "Validate that each access_method in the access_methods field of the DRS Object Info response has atleast one of 'access_url'or 'access_id' provided",
+                            "log_messages": [],
+                            "start_time": "2023-04-15T16:59:20Z",
+                            "end_time": "2023-04-15T16:59:20Z",
+                            "status": "PASS",
+                            "message": "At least 'access_url' or 'access_id' is provided in all access_methods"
+                        }
+                    ]
+                },
+                {
+                    "test_name": "Run test cases on the drs object info endpoint for drs id = 1d1ec431af3bab935cc381c2aca316ee; auth_type = none",
+                    "test_description": "validate drs object status code, content-type and response schemas",
+                    "start_time": "2023-04-15T16:59:20Z",
+                    "end_time": "2023-04-15T16:59:20Z",
+                    "status": "PASS",
+                    "summary": {
+                        "unknown": 0,
+                        "passed": 5,
+                        "warned": 0,
+                        "failed": 0,
+                        "skipped": 0
+                    },
+                    "message": "",
+                    "cases": [
+                        {
+                            "case_name": "DRS Object Info response status code validation",
+                            "case_description": "Check if the response status code is 200",
+                            "log_messages": [],
+                            "start_time": "2023-04-15T16:59:20Z",
+                            "end_time": "2023-04-15T16:59:20Z",
+                            "status": "PASS",
+                            "message": "Response status code is 200"
+                        },
+                        {
+                            "case_name": "DRS Object Info response content-type validation",
+                            "case_description": "Check if the content-type is application/json",
+                            "log_messages": [],
+                            "start_time": "2023-04-15T16:59:20Z",
+                            "end_time": "2023-04-15T16:59:20Z",
+                            "status": "PASS",
+                            "message": "Content-Type matches expected type"
+                        },
+                        {
+                            "case_name": "DRS Object Info response schema validation",
+                            "case_description": "Validate DRS Object Info response schema when status = 200",
+                            "log_messages": [],
+                            "start_time": "2023-04-15T16:59:20Z",
+                            "end_time": "2023-04-15T16:59:20Z",
+                            "status": "PASS",
+                            "message": "Schema Validation Successful"
+                        },
+                        {
+                            "case_name": "DRS Object Info has access information",
+                            "case_description": "Validate that DRS Object Info response has access_methods field provided and that it is non-empty",
+                            "log_messages": [],
+                            "start_time": "2023-04-15T16:59:20Z",
+                            "end_time": "2023-04-15T16:59:20Z",
+                            "status": "PASS",
+                            "message": "'access_methods' is provided and it is non-empty."
+                        },
+                        {
+                            "case_name": "DRS Object Info has access information",
+                            "case_description": "Validate that each access_method in the access_methods field of the DRS Object Info response has atleast one of 'access_url'or 'access_id' provided",
+                            "log_messages": [],
+                            "start_time": "2023-04-15T16:59:20Z",
+                            "end_time": "2023-04-15T16:59:20Z",
+                            "status": "PASS",
+                            "message": "At least 'access_url' or 'access_id' is provided in all access_methods"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "phase_name": "drs object access",
+            "phase_description": "run all the tests for drs access endpoint",
+            "start_time": "2023-04-15T16:59:20Z",
+            "end_time": "2023-04-15T16:59:20Z",
+            "status": "SKIP",
+            "summary": {
+                "unknown": 0,
+                "passed": 0,
+                "warned": 0,
+                "failed": 0,
+                "skipped": 0
+            },
+            "tests": []
+        }
+    ]
+}

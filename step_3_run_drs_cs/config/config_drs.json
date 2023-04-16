@@ -1,0 +1,32 @@
+{
+  "service_info" : {
+    "auth_type": "none",
+    "auth_token": ""
+  },
+  "drs_objects" : [
+    {
+      "drs_id" : "",
+      "auth_type": "none",
+      "auth_token": "",
+      "is_bundle": false
+    },
+    {
+      "drs_id" : "",
+      "auth_type": "none",
+      "auth_token": "",
+      "is_bundle": false
+    },
+    {
+      "drs_id" : "",
+      "auth_type": "none",
+      "auth_token": "",
+      "is_bundle": false
+    },
+    {
+      "drs_id" : "",
+      "auth_type": "none",
+      "auth_token": "",
+      "is_bundle": false
+    }
+  ]
+}
