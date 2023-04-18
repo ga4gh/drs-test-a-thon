@@ -54,7 +54,11 @@ def post_drs_object_to_server(object_id=None, description=None, name=None,
             }
         ]
 
-    response = requests.post(url, json=drs_object_json)
+    response = requests.request(
+        method = "POST",
+        url = url,
+        json = drs_object_json)
+
     if response.status_code != 200:
         response_json = response.json()
         message = ( "WARNING: Unsuccessful object creation for DRS object with ID: '{}'. " \

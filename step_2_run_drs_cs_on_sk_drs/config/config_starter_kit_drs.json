@@ -17,10 +17,22 @@
       "is_bundle": false
     },
     {
-      "drs_id" : "1d1ec431af3bab935cc381c2aca316ee",
+      "drs_id" : "c69a3d6c-4a28-4b7c-b215-0782f8d62429",
       "auth_type": "none",
       "auth_token": "",
-      "is_bundle": false
+      "is_bundle": true
+    },
+    {
+      "drs_id" : "b8cd0667-2c33-4c9f-967b-161b905932c9",
+      "auth_type": "none",
+      "auth_token": "",
+      "is_bundle": true
+    },
+    {
+      "drs_id" : "a1dd4ae2-8d26-43b0-a199-342b64c7dff6",
+      "auth_type": "none",
+      "auth_token": "",
+      "is_bundle": true
     }
   ]
 }
