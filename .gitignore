@@ -143,3 +143,5 @@ drs_cs_venv/*
 
 # databases
 *.db
+
+*/output/*.json

@@ -3,7 +3,7 @@ services:
 
   # DRS CS
   drs-compliance-suite:
-    image: ga4gh/drs-compliance-suite:1.0.1
+    image: ga4gh/drs-compliance-suite:1.0.2
     command: >
       --server_base_url "<TODO>"
       --platform_name "<TODO>"
