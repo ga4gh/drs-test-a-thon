@@ -11,8 +11,14 @@ python3 -m virtualenv drs_cs_venv
 ```
 
 ## Activate the virtual environment
+Mac:
 ```
 source drs_cs_venv/bin/activate
+```
+
+Windows:
+```
+source .\\drs_cs_venv\\scripts\\activate
 ```
 
 ## 2. Install requirements
