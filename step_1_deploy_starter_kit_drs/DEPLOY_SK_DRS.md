@@ -70,7 +70,7 @@ http://localhost:5000/ga4gh/drs/v1/objects/8e18bfb64168994489bc9e7fda0acd4f
 
 
 ## 8. Execute the DRS Compliance Suite on the Starter Kit
-Refer to the instructions provided [here](../step_2_run_drs_cs_on_sk_drs/RUN_DRS_CS.md).
+Refer to the instructions provided [here](../step_2_run_drs_cs_on_sk_drs/RUN_DRS_CS_ON_SK_DRS.md).
 
 ## NOTE: 
 when you are done using the DRS Starter Kit, to bring down the docker containers use the following commands
