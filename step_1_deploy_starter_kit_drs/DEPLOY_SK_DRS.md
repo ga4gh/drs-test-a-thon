@@ -4,6 +4,17 @@
 - Install [Docker Desktop](https://docs.docker.com/get-docker/)
 - Install [Python 3.x](https://www.python.org/downloads/)
 
+## cd into the repository
+If you have not already done so, clone the tutorial repository
+
+```
+git clone https://github.com/ga4gh/drs-test-a-thon.git
+```
+
+```
+cd drs-test-a-thon
+```
+
 ## Create a virtual environment
 
 ```
@@ -21,7 +32,7 @@ Windows:
 source .\\drs_cs_venv\\scripts\\activate
 ```
 
-## 2. Install requirements
+## 2. Go to Step 1 and install requirements
 ```
 cd step_1_deploy_starter_kit_drs
 ```
@@ -72,6 +83,7 @@ http://localhost:5000/ga4gh/drs/v1/objects/8e18bfb64168994489bc9e7fda0acd4f
 ## 8. Execute the DRS Compliance Suite on the Starter Kit
 Refer to the instructions provided [here](../step_2_run_drs_cs_on_sk_drs/RUN_DRS_CS_ON_SK_DRS.md).
 
+---
 ## NOTE: 
 when you are done using the DRS Starter Kit, to bring down the docker containers use the following commands
 ```

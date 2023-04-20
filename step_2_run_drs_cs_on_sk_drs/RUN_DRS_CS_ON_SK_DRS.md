@@ -7,7 +7,7 @@
 ## 1. Verify the following details
 
 ```
-cd step_2_run_drs_cs_on_sk_drs
+cd ../step_2_run_drs_cs_on_sk_drs
 ```
 
 - input parameters in the `command` section of the [docker-compose](./docker-compose.yml) file.
@@ -20,6 +20,8 @@ docker-compose up -d
 
 - You can find the output JSON report file at [output/drs-cs-report.json](./output/drs-cs-report.json)
 - You can find the html report at `http:0.0.0.0:57568/`
+
+---
 
 ## NOTE:
 when you are done using the DRS CS, to bring down the docker containers use the following commands
