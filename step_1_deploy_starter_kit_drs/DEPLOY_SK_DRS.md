@@ -80,7 +80,7 @@ http://localhost:5000/ga4gh/drs/v1/objects/8e18bfb64168994489bc9e7fda0acd4f
 **Expected Response Status Code:** 200
 
 
-## 8. Execute the DRS Compliance Suite on the Starter Kit
+## 8. Proceed to step 2 to execute the DRS Compliance Suite on the Starter Kit
 Refer to the instructions provided [here](../step_2_run_drs_cs_on_sk_drs/RUN_DRS_CS_ON_SK_DRS.md).
 
 ---
