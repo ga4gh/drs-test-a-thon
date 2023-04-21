@@ -3,7 +3,7 @@
     "auth_type": "none",
     "auth_token": ""
   },
-  "drs_objects" : [
+  "drs_object_info" : [
     {
       "drs_id" : "",
       "auth_type": "none",
@@ -20,13 +20,46 @@
       "drs_id" : "",
       "auth_type": "none",
       "auth_token": "",
-      "is_bundle": false
+      "is_bundle": true
     },
     {
       "drs_id" : "",
       "auth_type": "none",
       "auth_token": "",
-      "is_bundle": false
+      "is_bundle": true
+    },
+    {
+      "drs_id" : "",
+      "auth_type": "none",
+      "auth_token": "",
+      "is_bundle": true
+    }
+  ],
+  "drs_object_access": [
+    {
+      "drs_id" : "",
+      "auth_type": "none",
+      "auth_token": ""
+    },
+    {
+      "drs_id" : "",
+      "auth_type": "none",
+      "auth_token": ""
+    },
+    {
+      "drs_id" : "",
+      "auth_type": "none",
+      "auth_token": ""
+    },
+    {
+      "drs_id" : "",
+      "auth_type": "none",
+      "auth_token": ""
+    },
+    {
+      "drs_id" : "",
+      "auth_type": "none",
+      "auth_token": ""
     }
   ]
 }
