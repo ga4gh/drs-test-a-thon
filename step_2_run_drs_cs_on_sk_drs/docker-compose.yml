@@ -3,7 +3,7 @@ services:
 
   # DRS CS
   drs-compliance-suite:
-    image: ga4gh/drs-compliance-suite:1.0.2
+    image: ga4gh/drs-compliance-suite:1.0.3
     command: >
       --server_base_url "http://host.docker.internal:5000/ga4gh/drs/v1"
       --platform_name "ga4gh starter kit drs"

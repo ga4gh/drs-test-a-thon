@@ -142,6 +142,6 @@ datastore/*
 drs_cs_venv/*
 
 # databases
-**/*.db
+**/drs.db
 
-**/output/*.json
+**/output/drs-cs-report.json
